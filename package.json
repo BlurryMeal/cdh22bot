@@ -1,0 +1,42 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "X 2021 Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "@distube/ytdl": "^2.0.6",
+    "@distube/ytpl": "^1.0.12",
+    "@distube/ytsr": "^1.1.5",
+    "captcha-for-discord": "^1.0.0",
+    "chrome-aws-lambda": "^5.5.0",
+    "discord-rich-presence": "0.0.8",
+    "discord-slash-commands-v12": "^3.1.8",
+    "discord-welcome": "^2.0.2",
+    "discord.js": "^12.4.1",
+    "discord.js-menu": "^2.3.1",
+    "discord.js-pagination": "^1.0.3",
+    "discordcaptcha": "^1.0.0",
+    "easy-embed-pages": "0.0.3",
+    "exit-on-epipe": "^1.0.1",
+    "ffmpeg-static": "^4.2.7",
+    "genius-lyrics": "^4.2.9",
+    "images-scraper": "^6.0.0",
+    "mongoose": "^5.12.13",
+    "ms": "^2.1.2",
+    "opusscript": "0.0.8",
+    "puppeteer-core": "^5.5.0",
+    "reaction-role": "^3.0.1",
+    "reval-captcha": "^1.0.0",
+    "song-lyrics-api": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
